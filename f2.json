@@ -71,7 +71,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card1-v4.jpg",
+          "url": "https://ericlin1994.github.io/quanzhi-card/img/card1-v5.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -144,7 +144,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card2-v3.jpg",
+          "url": "https://ericlin1994.github.io/quanzhi-card/img/card2-v4.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -217,7 +217,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card3-v3.jpg",
+          "url": "https://ericlin1994.github.io/quanzhi-card/img/card3-v4.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -290,7 +290,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card4-v3.jpg",
+          "url": "https://ericlin1994.github.io/quanzhi-card/img/card4-v4.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -363,7 +363,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card5-v2.jpg",
+          "url": "https://ericlin1994.github.io/quanzhi-card/img/card5-v3.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
