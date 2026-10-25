@@ -137,7 +137,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -145,7 +145,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "修繕需求",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -167,12 +167,60 @@
                   "borderColor": "#566172",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2200#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "label": "修繕需求",
+                    "uri": "https://line.me/ti/p/~sunny999999"
                   }
                 }
               ],
               "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "分享名片",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#4184C2",
+                    "endColor": "#17558E"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5893C9",
+                  "action": {
+                    "type": "uri",
+                    "label": "分享名片",
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                  }
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -324,7 +372,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -332,7 +380,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "修繕需求",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -354,12 +402,60 @@
                   "borderColor": "#566172",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2200#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "label": "修繕需求",
+                    "uri": "https://line.me/ti/p/~sunny999999"
                   }
                 }
               ],
               "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "分享名片",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#4184C2",
+                    "endColor": "#17558E"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5893C9",
+                  "action": {
+                    "type": "uri",
+                    "label": "分享名片",
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                  }
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -511,7 +607,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -519,7 +615,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "修繕需求",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -541,12 +637,60 @@
                   "borderColor": "#566172",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2200#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "label": "修繕需求",
+                    "uri": "https://line.me/ti/p/~sunny999999"
                   }
                 }
               ],
               "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "分享名片",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#4184C2",
+                    "endColor": "#17558E"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5893C9",
+                  "action": {
+                    "type": "uri",
+                    "label": "分享名片",
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                  }
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -698,7 +842,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -706,7 +850,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "修繕需求",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -728,12 +872,60 @@
                   "borderColor": "#566172",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2200#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "label": "修繕需求",
+                    "uri": "https://line.me/ti/p/~sunny999999"
                   }
                 }
               ],
               "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "分享名片",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#4184C2",
+                    "endColor": "#17558E"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5893C9",
+                  "action": {
+                    "type": "uri",
+                    "label": "分享名片",
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                  }
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -885,7 +1077,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -893,7 +1085,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "修繕需求",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -915,12 +1107,60 @@
                   "borderColor": "#566172",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2200#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "label": "修繕需求",
+                    "uri": "https://line.me/ti/p/~sunny999999"
                   }
                 }
               ],
               "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "分享名片",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#4184C2",
+                    "endColor": "#17558E"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5893C9",
+                  "action": {
+                    "type": "uri",
+                    "label": "分享名片",
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                  }
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -1295,7 +1535,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1303,7 +1543,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "修繕需求",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1325,12 +1565,60 @@
                   "borderColor": "#566172",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2200#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "label": "修繕需求",
+                    "uri": "https://line.me/ti/p/~sunny999999"
                   }
                 }
               ],
               "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "分享名片",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#4184C2",
+                    "endColor": "#17558E"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5893C9",
+                  "action": {
+                    "type": "uri",
+                    "label": "分享名片",
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                  }
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
             }
           ],
           "spacing": "sm",
