@@ -233,6 +233,23 @@
         padding:16px;background:rgba(10,15,25,.92);cursor:zoom-out;-webkit-tap-highlight-color:transparent}
   #lightbox[hidden]{display:none}
   #lightbox img{max-width:100%;max-height:100%;object-fit:contain;border-radius:6px}
+  /* 放大檢視的左右切換（作品牆／施工項目圖共用同一組控制項） */
+  #lightbox .lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;padding:0;border:0;
+        border-radius:50%;background:rgba(255,255,255,.16);color:#fff;font-size:26px;line-height:1;cursor:pointer;
+        display:flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent;
+        -webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+  #lightbox .lb-nav:hover{background:rgba(255,255,255,.30)}
+  #lightbox .lb-nav[hidden]{display:none}
+  #lightbox .lb-prev{left:10px}
+  #lightbox .lb-next{right:10px}
+  #lightbox .lb-close{position:absolute;top:12px;right:12px;width:42px;height:42px;padding:0;border:0;border-radius:50%;
+        background:rgba(255,255,255,.16);color:#fff;font-size:17px;line-height:1;cursor:pointer;
+        display:flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent}
+  #lightbox .lb-close:hover{background:rgba(255,255,255,.30)}
+  #lightbox .lb-count{position:absolute;top:22px;left:50%;transform:translateX(-50%);color:#fff;font-size:13px;
+        letter-spacing:.1em;font-variant-numeric:tabular-nums;opacity:.8;pointer-events:none}
+  #lightbox .lb-count[hidden]{display:none}
+  @media (max-width:420px){#lightbox .lb-nav{width:42px;height:42px;font-size:22px}}
 
   /* 門市資訊 */
   .info{margin:6px 20px 0;background:#fff;border-radius:var(--radius);padding:16px;
@@ -516,7 +533,7 @@
     <article class="card">
       <h3>施工<em>案例</em></h3>
       <p class="sub">實際施作案例（屋頂水塔、騎樓結構與外牆高空）</p>
-      <div class="craft">
+      <div class="craft case-album">
         <figure>
           <img src="case1.jpg" alt="案例1" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>案例照</div>'">
         </figure><figure>
@@ -568,6 +585,18 @@
           <img src="gallery5.jpg" alt="作品5" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
         </figure><figure>
           <img src="gallery6.jpg" alt="作品6" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+        </figure><figure>
+          <img src="gallery7.jpg" alt="作品7" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+        </figure><figure>
+          <img src="gallery8.jpg" alt="作品8" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+        </figure><figure>
+          <img src="gallery9.jpg" alt="作品9" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+        </figure><figure>
+          <img src="gallery10.jpg" alt="作品10" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+        </figure><figure>
+          <img src="gallery11.jpg" alt="作品11" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+        </figure><figure>
+          <img src="gallery12.jpg" alt="作品12" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
         </figure>
   </div>
 
@@ -600,7 +629,13 @@
 </div>
 
 <!-- 圖片放大（在 CONTENT 區塊外，rebuild_page.py 不會覆蓋） -->
-<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="圖片放大"><img id="lightboxImg" class="loaded" alt=""></div>
+<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="圖片放大">
+  <span class="lb-count" id="lbCount" hidden></span>
+  <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="上一張">&#8249;</button>
+  <img id="lightboxImg" class="loaded" alt="">
+  <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="下一張">&#8250;</button>
+  <button class="lb-close" id="lbClose" type="button" aria-label="關閉">&#10005;</button>
+</div>
 
 <!-- LINE LIFF SDK（在 LINE 內開啟時提供 shareTargetPicker） -->
 <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
@@ -661,7 +696,7 @@ let payloadFailed = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b104';
+const BUILD = 'b106';
 const PAGE_VER = '2026-10-25-2300'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
@@ -1839,34 +1874,85 @@ bindRail();
 /* 視覺增強（獨立 script：上面的主程式出錯也不會牽連圖片顯示）。
    全部用 document 層級委派，中繼頁事後塞進來的內容也有效。 */
 
-/* 作品牆／工藝圖：點圖放大，點任何地方或按 Esc 關閉 */
+/* 作品牆／施工項目圖：點圖放大，可左右切換（箭頭／鍵盤←→／手機左右滑）。
+   作品牆的所有圖算一組、施工項目圖算另一組，切換只在同一組內循環。
+   關閉：點背景、點 ✕、按 Esc。點圖片本身不關（避免誤觸）。 */
 (function(){
   try{
     const box = document.getElementById('lightbox'), big = document.getElementById('lightboxImg');
     if(!box || !big) return;
-    let prevOverflow = null;
+    const btnPrev = document.getElementById('lbPrev'), btnNext = document.getElementById('lbNext');
+    const countEl = document.getElementById('lbCount'), btnClose = document.getElementById('lbClose');
+    const SEL = ['.wall img', '.craft:not(.case-album) img', '.case-album img'];
+                                               /* 每一組＝一個相簿（施工項目與施工案例各自獨立） */
+    let list = [], idx = 0, prevOverflow = null;
+
+    const show = i => {
+      if(!list.length) return;
+      idx = (i % list.length + list.length) % list.length;   /* 頭尾相接，一直按都有圖 */
+      const im = list[idx];
+      big.src = im.currentSrc || im.src;
+      big.alt = im.alt || '';
+      if(countEl){
+        countEl.textContent = (idx + 1) + ' / ' + list.length;
+        countEl.hidden = list.length < 2;
+      }
+    };
+    const step = d => show(idx + d);
+
     const close = () => {
       if(box.hidden) return;
       box.hidden = true;
       big.removeAttribute('src');
       document.body.style.overflow = prevOverflow || '';
-      prevOverflow = null;
+      prevOverflow = null; list = [];
     };
+
     document.addEventListener('click', e => {
       const t = e.target;
-      if(!t || !t.closest) return;
-      const img = t.closest('.wall img, .craft img');   /* 已被換成 .ph 的就不會命中 */
-      if(!img || !box.hidden) return;
-      const src = img.currentSrc || img.src;
-      if(!src) return;
-      big.src = src;
-      big.alt = img.alt || '';
+      if(!t || !t.closest || !box.hidden) return;
+      const sel = SEL.find(s => t.closest(s));
+      if(!sel) return;                                  /* 已被換成 .ph 的就不會命中 */
+      const img = t.closest(sel);
+      if(!(img.currentSrc || img.src)) return;
+      list = Array.prototype.slice.call(document.querySelectorAll(sel));
+      if(btnPrev) btnPrev.hidden = btnNext.hidden = list.length < 2;
       prevOverflow = document.body.style.overflow;
       document.body.style.overflow = 'hidden';
       box.hidden = false;
+      show(list.indexOf(img));
     });
-    box.addEventListener('click', close);
-    document.addEventListener('keydown', e => { if(e.key === 'Escape' || e.key === 'Esc') close(); });
+
+    box.addEventListener('click', e => {
+      const t = e.target;
+      if(t === big) return;                             /* 點圖片本身不關 */
+      if(t.closest && t.closest('.lb-nav')) return;      /* 箭頭自己的 click 處理 */
+      if(t.closest && t.closest('.lb-close')) return;
+      close();                                          /* 點背景關閉 */
+    });
+    if(btnClose) btnClose.addEventListener('click', close);
+    if(btnPrev) btnPrev.addEventListener('click', () => step(-1));
+    if(btnNext) btnNext.addEventListener('click', () => step(1));
+    document.addEventListener('keydown', e => {
+      if(box.hidden) return;
+      if(e.key === 'Escape' || e.key === 'Esc') close();
+      else if(e.key === 'ArrowLeft') step(-1);
+      else if(e.key === 'ArrowRight') step(1);
+    });
+
+    /* 手機左右滑動切換 */
+    let tx = 0, ty = 0, swiping = false;
+    box.addEventListener('touchstart', e => {
+      if(e.touches.length !== 1) return;
+      tx = e.touches[0].clientX; ty = e.touches[0].clientY; swiping = true;
+    }, {passive:true});
+    box.addEventListener('touchend', e => {
+      if(!swiping) return;
+      swiping = false;
+      const t = e.changedTouches[0];
+      const dx = t.clientX - tx, dy = t.clientY - ty;
+      if(Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) step(dx < 0 ? 1 : -1);
+    }, {passive:true});
   }catch(e){}
 })();
 
