@@ -56,6 +56,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方網站",
                       "size": "xxs",
@@ -65,7 +73,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -88,6 +96,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方LINE",
                       "size": "xxs",
@@ -97,7 +113,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -120,6 +136,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "修繕需求",
                       "size": "xxs",
@@ -129,7 +153,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -219,6 +243,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方網站",
                       "size": "xxs",
@@ -228,7 +260,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -251,6 +283,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方LINE",
                       "size": "xxs",
@@ -260,7 +300,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -283,6 +323,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "修繕需求",
                       "size": "xxs",
@@ -292,7 +340,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -382,6 +430,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方網站",
                       "size": "xxs",
@@ -391,7 +447,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -414,6 +470,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方LINE",
                       "size": "xxs",
@@ -423,7 +487,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -446,6 +510,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "修繕需求",
                       "size": "xxs",
@@ -455,7 +527,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -545,6 +617,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方網站",
                       "size": "xxs",
@@ -554,7 +634,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -577,6 +657,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方LINE",
                       "size": "xxs",
@@ -586,7 +674,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -609,6 +697,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "修繕需求",
                       "size": "xxs",
@@ -618,7 +714,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -708,6 +804,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方網站",
                       "size": "xxs",
@@ -717,7 +821,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -740,6 +844,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方LINE",
                       "size": "xxs",
@@ -749,7 +861,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -772,6 +884,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "修繕需求",
                       "size": "xxs",
@@ -781,7 +901,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -1094,6 +1214,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方網站",
                       "size": "xxs",
@@ -1103,7 +1231,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -1126,6 +1254,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "官方LINE",
                       "size": "xxs",
@@ -1135,7 +1271,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -1158,6 +1294,14 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
                       "text": "修繕需求",
                       "size": "xxs",
@@ -1167,7 +1311,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
