@@ -184,6 +184,11 @@
   .wall img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
   /* 大圖用絕對定位填滿格子：不參與列高計算（直式照片也不會把列撐高） */
   .wall figure:first-child img{position:absolute;top:0;left:0;height:100%;aspect-ratio:auto}
+  /* 現場紀錄：依案場分組的小標題（每組各自一個相簿） */
+  .wall-head{display:flex;align-items:baseline;gap:8px;margin:20px 20px 10px;font-size:13px}
+  .wall-head b{font-size:14.5px;font-weight:800;color:var(--navy)}
+  .wall-head span{color:#6B7280;font-size:12.5px}
+  .wall-head em{margin-left:auto;font-style:normal;color:var(--muted);font-size:11.5px;letter-spacing:.06em}
   .wall img,.craft img{cursor:zoom-in}
   .wall .ph{aspect-ratio:1/1;background:repeating-linear-gradient(45deg,#EDE7DB,#EDE7DB 8px,#F5F1EA 8px,#F5F1EA 16px);
             display:flex;align-items:center;justify-content:center;font-size:10px;color:#9AA1AE;letter-spacing:.1em}
@@ -512,7 +517,7 @@
     <!-- ═══════════ 5 ═══════════ -->
     <article class="card">
       <h3>施工<em>項目</em></h3>
-      <div class="craft">
+      <div class="craft" data-album="craft">
         <figure>
           <img src="craft1.jpg" alt="科技測漏｜非破壞定位" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
           <figcaption><h4>科技測漏｜非破壞定位</h4><p>以紅外線熱像儀與水分計判讀溫度、含水率差異，不拆牆也能找出滲水源頭</p></figcaption>
@@ -533,7 +538,7 @@
     <article class="card">
       <h3>施工<em>案例</em></h3>
       <p class="sub">實際施作案例（屋頂水塔、騎樓結構與外牆高空）</p>
-      <div class="craft case-album">
+      <div class="craft case-album" data-album="case">
         <figure>
           <img src="case1.jpg" alt="案例1" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>案例照</div>'">
         </figure><figure>
@@ -570,34 +575,40 @@
   </div>
   <div class="count" id="count"><b>1</b> / 6　左右滑動看更多</div>
 
-  <!-- ═══════════ 作品牆 ═══════════ -->
+  <!-- ═══════════ 作品牆（依案場分組） ═══════════ -->
   <div class="sec-title">現場<em>紀錄</em></div>
-  <div class="wall">
-    <figure>
-          <img src="gallery1.jpg" alt="作品1" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery2.jpg" alt="作品2" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery3.jpg" alt="作品3" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery4.jpg" alt="作品4" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery5.jpg" alt="作品5" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery6.jpg" alt="作品6" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery7.jpg" alt="作品7" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery8.jpg" alt="作品8" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery9.jpg" alt="作品9" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery10.jpg" alt="作品10" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery11.jpg" alt="作品11" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure><figure>
-          <img src="gallery12.jpg" alt="作品12" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-        </figure>
+  <div class="wall-head"><b>永和福和路</b><span>地下室防水・壁癌修復</span><em>8 張</em></div>
+  <div class="wall" data-album="wall1">
+    <figure><img src="wall1_1.jpg" alt="永和福和路 施工紀錄 1" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall1_2.jpg" alt="永和福和路 施工紀錄 2" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall1_3.jpg" alt="永和福和路 施工紀錄 3" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall1_4.jpg" alt="永和福和路 施工紀錄 4" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall1_5.jpg" alt="永和福和路 施工紀錄 5" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall1_6.jpg" alt="永和福和路 施工紀錄 6" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall1_7.jpg" alt="永和福和路 施工紀錄 7" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall1_8.jpg" alt="永和福和路 施工紀錄 8" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+  </div>
+  <div class="wall-head"><b>中和員山路</b><span>科技測漏・管路抓漏</span><em>8 張</em></div>
+  <div class="wall" data-album="wall2">
+    <figure><img src="wall2_1.jpg" alt="中和員山路 施工紀錄 1" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall2_2.jpg" alt="中和員山路 施工紀錄 2" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall2_3.jpg" alt="中和員山路 施工紀錄 3" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall2_4.jpg" alt="中和員山路 施工紀錄 4" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall2_5.jpg" alt="中和員山路 施工紀錄 5" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall2_6.jpg" alt="中和員山路 施工紀錄 6" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall2_7.jpg" alt="中和員山路 施工紀錄 7" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall2_8.jpg" alt="中和員山路 施工紀錄 8" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+  </div>
+  <div class="wall-head"><b>中和中山路</b><span>管道間測漏・防水施作</span><em>8 張</em></div>
+  <div class="wall" data-album="wall3">
+    <figure><img src="wall3_1.jpg" alt="中和中山路 施工紀錄 1" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall3_2.jpg" alt="中和中山路 施工紀錄 2" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall3_3.jpg" alt="中和中山路 施工紀錄 3" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall3_4.jpg" alt="中和中山路 施工紀錄 4" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall3_5.jpg" alt="中和中山路 施工紀錄 5" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall3_6.jpg" alt="中和中山路 施工紀錄 6" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall3_7.jpg" alt="中和中山路 施工紀錄 7" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
+    <figure><img src="wall3_8.jpg" alt="中和中山路 施工紀錄 8" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'"></figure>
   </div>
 
   <!-- ═══════════ 店家資訊 ═══════════ -->
@@ -696,7 +707,7 @@ let payloadFailed = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b106';
+const BUILD = 'b108';
 const PAGE_VER = '2026-10-25-2300'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
@@ -1883,8 +1894,12 @@ bindRail();
     if(!box || !big) return;
     const btnPrev = document.getElementById('lbPrev'), btnNext = document.getElementById('lbNext');
     const countEl = document.getElementById('lbCount'), btnClose = document.getElementById('lbClose');
-    const SEL = ['.wall img', '.craft:not(.case-album) img', '.case-album img'];
-                                               /* 每一組＝一個相簿（施工項目與施工案例各自獨立） */
+    /* 相簿＝「最靠近的那個 [data-album] 容器裡的所有圖」。
+       現場紀錄每個案場一個 data-album，施工項目／施工案例也各一個 → 切換不會跨組。 */
+    const albumOf = el => {
+      const c = el.closest('[data-album]');
+      return c ? Array.prototype.slice.call(c.querySelectorAll('img')) : null;
+    };
     let list = [], idx = 0, prevOverflow = null;
 
     const show = i => {
@@ -1911,11 +1926,10 @@ bindRail();
     document.addEventListener('click', e => {
       const t = e.target;
       if(!t || !t.closest || !box.hidden) return;
-      const sel = SEL.find(s => t.closest(s));
-      if(!sel) return;                                  /* 已被換成 .ph 的就不會命中 */
-      const img = t.closest(sel);
-      if(!(img.currentSrc || img.src)) return;
-      list = Array.prototype.slice.call(document.querySelectorAll(sel));
+      const img = t.closest('.wall img, .craft img');   /* 已被換成 .ph 的就不會命中 */
+      if(!img || !(img.currentSrc || img.src)) return;
+      list = albumOf(img) || [];
+      if(!list.length) return;
       if(btnPrev) btnPrev.hidden = btnNext.hidden = list.length < 2;
       prevOverflow = document.body.style.overflow;
       document.body.style.overflow = 'hidden';
