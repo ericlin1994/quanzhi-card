@@ -363,7 +363,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card5-v1.jpg",
+          "url": "https://ericlin1994.github.io/quanzhi-card/img/card5-v2.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
