@@ -57,7 +57,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -97,7 +97,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -137,7 +137,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -184,7 +184,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -215,7 +215,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-10-27-1519#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -228,14 +228,14 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card1-v8.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card1-v8.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://ericlin1994.github.io/quanzhi-card/"
+            "uri": "https://sunny.cardtaiwan.com/"
           }
         }
       },
@@ -292,7 +292,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -332,7 +332,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -372,7 +372,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -419,7 +419,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -450,7 +450,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-10-27-1519#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -463,14 +463,14 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card2-v4.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card2-v4.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://ericlin1994.github.io/quanzhi-card/"
+            "uri": "https://sunny.cardtaiwan.com/"
           }
         }
       },
@@ -527,7 +527,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -567,7 +567,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -607,7 +607,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -654,7 +654,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -685,7 +685,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-10-27-1519#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -698,14 +698,14 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card3-v4.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card3-v4.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://ericlin1994.github.io/quanzhi-card/"
+            "uri": "https://sunny.cardtaiwan.com/"
           }
         }
       },
@@ -762,7 +762,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -802,7 +802,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -842,7 +842,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -889,7 +889,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -920,7 +920,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-10-27-1519#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -933,14 +933,14 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card4-v5.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card4-v5.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://ericlin1994.github.io/quanzhi-card/"
+            "uri": "https://sunny.cardtaiwan.com/"
           }
         }
       },
@@ -997,7 +997,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1037,7 +1037,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1077,7 +1077,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1124,7 +1124,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1155,7 +1155,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-10-27-1519#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -1168,14 +1168,14 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/quanzhi-card/img/card5-v3.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card5-v3.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://ericlin1994.github.io/quanzhi-card/"
+            "uri": "https://sunny.cardtaiwan.com/"
           }
         }
       },
@@ -1388,7 +1388,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-map-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-map-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1455,7 +1455,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1495,7 +1495,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1535,7 +1535,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1582,7 +1582,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://ericlin1994.github.io/quanzhi-card/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1613,7 +1613,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json&v=2026-10-25-2300#share=1&src=https://ericlin1994.github.io/quanzhi-card/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-10-27-1519#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
