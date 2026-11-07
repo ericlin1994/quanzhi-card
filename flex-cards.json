@@ -22,7 +22,7 @@
             {
               "type": "text",
               "text": "銓治工程｜從漏水檢測到防水修繕，為您處理房屋滲漏問題。",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#9DB0C6",
               "wrap": true,
@@ -57,7 +57,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -66,7 +66,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -97,7 +97,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -106,7 +106,7 @@
                     {
                       "type": "text",
                       "text": "官方LINE",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -118,13 +118,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "官方LINE",
@@ -137,7 +137,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -146,7 +146,7 @@
                     {
                       "type": "text",
                       "text": "修繕需求",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -184,7 +184,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -193,7 +193,7 @@
                     {
                       "type": "text",
                       "text": "分享名片",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -205,13 +205,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -228,7 +228,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card1-v8.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card1-v9.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -257,7 +257,7 @@
             {
               "type": "text",
               "text": "屋主・房東・房仲夥伴・社區管委會・店家與企業",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#9DB0C6",
               "wrap": true,
@@ -292,7 +292,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -301,7 +301,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -332,7 +332,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -341,7 +341,7 @@
                     {
                       "type": "text",
                       "text": "官方LINE",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -353,13 +353,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "官方LINE",
@@ -372,7 +372,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -381,7 +381,7 @@
                     {
                       "type": "text",
                       "text": "修繕需求",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -419,7 +419,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -428,7 +428,7 @@
                     {
                       "type": "text",
                       "text": "分享名片",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -440,13 +440,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -492,7 +492,7 @@
             {
               "type": "text",
               "text": "科技測漏・外牆防水・屋頂與浴廁防水・壁癌修繕",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#9DB0C6",
               "wrap": true,
@@ -527,7 +527,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -536,7 +536,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -567,7 +567,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -576,7 +576,7 @@
                     {
                       "type": "text",
                       "text": "官方LINE",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -588,13 +588,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "官方LINE",
@@ -607,7 +607,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -616,7 +616,7 @@
                     {
                       "type": "text",
                       "text": "修繕需求",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -654,7 +654,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -663,7 +663,7 @@
                     {
                       "type": "text",
                       "text": "分享名片",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -675,13 +675,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -727,7 +727,7 @@
             {
               "type": "text",
               "text": "信義居家認證合作廠商・丙級防水技術士・公共工程實績",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#9DB0C6",
               "wrap": true,
@@ -762,7 +762,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -771,7 +771,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -802,7 +802,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -811,7 +811,7 @@
                     {
                       "type": "text",
                       "text": "官方LINE",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -823,13 +823,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "官方LINE",
@@ -842,7 +842,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -851,7 +851,7 @@
                     {
                       "type": "text",
                       "text": "修繕需求",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -889,7 +889,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -898,7 +898,7 @@
                     {
                       "type": "text",
                       "text": "分享名片",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -910,13 +910,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -962,7 +962,7 @@
             {
               "type": "text",
               "text": "透明流程、責任保固，從檢測到交付都說得清楚。",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#9DB0C6",
               "wrap": true,
@@ -997,7 +997,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1006,7 +1006,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1037,7 +1037,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1046,7 +1046,7 @@
                     {
                       "type": "text",
                       "text": "官方LINE",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1058,13 +1058,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "官方LINE",
@@ -1077,7 +1077,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1086,7 +1086,7 @@
                     {
                       "type": "text",
                       "text": "修繕需求",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1124,7 +1124,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1133,7 +1133,7 @@
                     {
                       "type": "text",
                       "text": "分享名片",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1145,13 +1145,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -1388,7 +1388,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-map-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-map-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1397,7 +1397,7 @@
                     {
                       "type": "text",
                       "text": "導航到門市",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1409,13 +1409,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "導航到門市",
@@ -1455,7 +1455,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1464,7 +1464,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1495,7 +1495,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1504,7 +1504,7 @@
                     {
                       "type": "text",
                       "text": "官方LINE",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1516,13 +1516,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "官方LINE",
@@ -1535,7 +1535,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-quanzhi-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1544,7 +1544,7 @@
                     {
                       "type": "text",
                       "text": "修繕需求",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1582,7 +1582,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v2.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1591,7 +1591,7 @@
                     {
                       "type": "text",
                       "text": "分享名片",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1603,13 +1603,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#4184C2",
-                    "endColor": "#17558E"
+                    "startColor": "#3D76A9",
+                    "endColor": "#134877"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#5893C9",
+                  "borderColor": "#5486B4",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
