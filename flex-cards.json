@@ -49,178 +49,184 @@
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.waterproofs.tw/"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方網站",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方LINE",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1B2A41",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#A9CDF0",
+                        "endColor": "#7FB2E5"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C6DFF5",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方LINE",
+                        "uri": "https://line.me/R/ti/p/@waterproof888"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方網站",
-                    "uri": "https://www.waterproofs.tw/"
-                  }
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "修繕需求",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "修繕需求",
+                        "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方LINE",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#1B2A41",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3D76A9",
+                        "endColor": "#134877"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5486B4",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#A9CDF0",
-                    "endColor": "#7FB2E5"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#C6DFF5",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方LINE",
-                    "uri": "https://line.me/R/ti/p/@waterproof888"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "修繕需求",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "修繕需求",
-                    "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "分享名片",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3D76A9",
-                    "endColor": "#134877"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5486B4",
-                  "action": {
-                    "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -284,178 +290,184 @@
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.waterproofs.tw/"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方網站",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方LINE",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1B2A41",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#A9CDF0",
+                        "endColor": "#7FB2E5"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C6DFF5",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方LINE",
+                        "uri": "https://line.me/R/ti/p/@waterproof888"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方網站",
-                    "uri": "https://www.waterproofs.tw/"
-                  }
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "修繕需求",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "修繕需求",
+                        "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方LINE",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#1B2A41",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3D76A9",
+                        "endColor": "#134877"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5486B4",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#A9CDF0",
-                    "endColor": "#7FB2E5"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#C6DFF5",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方LINE",
-                    "uri": "https://line.me/R/ti/p/@waterproof888"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "修繕需求",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "修繕需求",
-                    "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "分享名片",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3D76A9",
-                    "endColor": "#134877"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5486B4",
-                  "action": {
-                    "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -519,178 +531,184 @@
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.waterproofs.tw/"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方網站",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方LINE",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1B2A41",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#A9CDF0",
+                        "endColor": "#7FB2E5"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C6DFF5",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方LINE",
+                        "uri": "https://line.me/R/ti/p/@waterproof888"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方網站",
-                    "uri": "https://www.waterproofs.tw/"
-                  }
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "修繕需求",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "修繕需求",
+                        "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方LINE",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#1B2A41",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3D76A9",
+                        "endColor": "#134877"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5486B4",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#A9CDF0",
-                    "endColor": "#7FB2E5"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#C6DFF5",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方LINE",
-                    "uri": "https://line.me/R/ti/p/@waterproof888"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "修繕需求",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "修繕需求",
-                    "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "分享名片",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3D76A9",
-                    "endColor": "#134877"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5486B4",
-                  "action": {
-                    "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -754,178 +772,184 @@
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.waterproofs.tw/"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方網站",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方LINE",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1B2A41",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#A9CDF0",
+                        "endColor": "#7FB2E5"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C6DFF5",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方LINE",
+                        "uri": "https://line.me/R/ti/p/@waterproof888"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方網站",
-                    "uri": "https://www.waterproofs.tw/"
-                  }
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "修繕需求",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "修繕需求",
+                        "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方LINE",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#1B2A41",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3D76A9",
+                        "endColor": "#134877"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5486B4",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#A9CDF0",
-                    "endColor": "#7FB2E5"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#C6DFF5",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方LINE",
-                    "uri": "https://line.me/R/ti/p/@waterproof888"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "修繕需求",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "修繕需求",
-                    "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "分享名片",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3D76A9",
-                    "endColor": "#134877"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5486B4",
-                  "action": {
-                    "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -989,178 +1013,184 @@
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.waterproofs.tw/"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方網站",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方LINE",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1B2A41",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#A9CDF0",
+                        "endColor": "#7FB2E5"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C6DFF5",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方LINE",
+                        "uri": "https://line.me/R/ti/p/@waterproof888"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方網站",
-                    "uri": "https://www.waterproofs.tw/"
-                  }
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "修繕需求",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "修繕需求",
+                        "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方LINE",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#1B2A41",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3D76A9",
+                        "endColor": "#134877"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5486B4",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#A9CDF0",
-                    "endColor": "#7FB2E5"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#C6DFF5",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方LINE",
-                    "uri": "https://line.me/R/ti/p/@waterproof888"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "修繕需求",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "修繕需求",
-                    "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "分享名片",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3D76A9",
-                    "endColor": "#134877"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5486B4",
-                  "action": {
-                    "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "sm"
             }
           ],
           "spacing": "sm",
@@ -1447,178 +1477,184 @@
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-web-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.waterproofs.tw/"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方網站",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方LINE",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1B2A41",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#A9CDF0",
+                        "endColor": "#7FB2E5"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C6DFF5",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方LINE",
+                        "uri": "https://line.me/R/ti/p/@waterproof888"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方網站",
-                    "uri": "https://www.waterproofs.tw/"
-                  }
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-navy-v1.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "修繕需求",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C5F",
+                        "endColor": "#152133"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#566172",
+                      "action": {
+                        "type": "uri",
+                        "label": "修繕需求",
+                        "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
+                      }
                     },
                     {
-                      "type": "text",
-                      "text": "官方LINE",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#1B2A41",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
+                          "size": "28px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3D76A9",
+                        "endColor": "#134877"
+                      },
+                      "cornerRadius": "15px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5486B4",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                      }
                     }
                   ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#A9CDF0",
-                    "endColor": "#7FB2E5"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#C6DFF5",
-                  "action": {
-                    "type": "uri",
-                    "label": "官方LINE",
-                    "uri": "https://line.me/R/ti/p/@waterproof888"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-repair-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "修繕需求",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F4C5F",
-                    "endColor": "#152133"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#566172",
-                  "action": {
-                    "type": "uri",
-                    "label": "修繕需求",
-                    "uri": "https://dev.taskgo.com.tw/repair-intake/DB8ILrnt61Z59dzoQA8NNb1JA6PhA4HrY2LTetRGu2I"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-share-v4.png",
-                      "size": "28px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "分享名片",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3D76A9",
-                    "endColor": "#134877"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5486B4",
-                  "action": {
-                    "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-05-1451#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "sm"
             }
           ],
           "spacing": "sm",
