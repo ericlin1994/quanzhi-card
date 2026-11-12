@@ -8,7 +8,7 @@
         "type": "bubble",
         "styles": {
           "body": {
-            "backgroundColor": "#1B2A41"
+            "backgroundColor": "#1F3A68"
           }
         },
         "body": {
@@ -27,9 +27,9 @@
             {
               "type": "text",
               "text": "· 鄧溢錩 SUNNY｜銓治工程 負責人\n· 專業工法・細節把關\n· 施工透明・進度掌握",
-              "size": "xs",
+              "size": "sm",
               "weight": "regular",
-              "color": "#9DB0C6",
+              "color": "#B4C4D8",
               "wrap": true,
               "margin": "xs"
             }
@@ -56,7 +56,7 @@
               ],
               "spacing": "md",
               "paddingAll": "12px",
-              "backgroundColor": "#1D6DB6",
+              "backgroundColor": "#1B6DB7",
               "cornerRadius": "100px",
               "action": {
                 "type": "uri",
@@ -67,14 +67,14 @@
           ],
           "spacing": "none",
           "paddingAll": "12px",
-          "backgroundColor": "#1B2A41"
+          "backgroundColor": "#1F3A68"
         }
       },
       {
         "type": "bubble",
         "styles": {
           "body": {
-            "backgroundColor": "#1B2A41"
+            "backgroundColor": "#1F3A68"
           }
         },
         "body": {
@@ -93,9 +93,9 @@
             {
               "type": "text",
               "text": "· 我們專為誰服務\n· 有漏水、壁癌困擾的屋主\n· 需要修繕出租物件的房東\n· 協助買賣屋修繕的房仲夥伴\n· 規劃公共區域修繕的社區管委會\n· 有防水修繕需求的店家與企業",
-              "size": "xs",
+              "size": "sm",
               "weight": "regular",
-              "color": "#9DB0C6",
+              "color": "#B4C4D8",
               "wrap": true,
               "margin": "xs"
             }
@@ -122,7 +122,7 @@
               ],
               "spacing": "md",
               "paddingAll": "12px",
-              "backgroundColor": "#1D6DB6",
+              "backgroundColor": "#1B6DB7",
               "cornerRadius": "100px",
               "action": {
                 "type": "uri",
@@ -133,14 +133,14 @@
           ],
           "spacing": "none",
           "paddingAll": "12px",
-          "backgroundColor": "#1B2A41"
+          "backgroundColor": "#1F3A68"
         }
       },
       {
         "type": "bubble",
         "styles": {
           "body": {
-            "backgroundColor": "#1B2A41"
+            "backgroundColor": "#1F3A68"
           }
         },
         "body": {
@@ -159,9 +159,9 @@
             {
               "type": "text",
               "text": "· 我們能為你做什麼\n· 科技測漏：透過科技檢測設備與現場測試，協助釐清滲漏來源。\n· 外牆防水：針對外牆、窗框及接縫滲水，規劃修繕方案。\n· 屋頂與浴廁防水：依現場狀況及使用需求，安排防水整修。\n· 室內止漏與壁癌修繕：處理滲漏及受損牆面，安排後續復原。",
-              "size": "xs",
+              "size": "sm",
               "weight": "regular",
-              "color": "#9DB0C6",
+              "color": "#B4C4D8",
               "wrap": true,
               "margin": "xs"
             }
@@ -188,7 +188,7 @@
               ],
               "spacing": "md",
               "paddingAll": "12px",
-              "backgroundColor": "#1D6DB6",
+              "backgroundColor": "#1B6DB7",
               "cornerRadius": "100px",
               "action": {
                 "type": "uri",
@@ -199,14 +199,14 @@
           ],
           "spacing": "none",
           "paddingAll": "12px",
-          "backgroundColor": "#1B2A41"
+          "backgroundColor": "#1F3A68"
         }
       },
       {
         "type": "bubble",
         "styles": {
           "body": {
-            "backgroundColor": "#1B2A41"
+            "backgroundColor": "#1F3A68"
           }
         },
         "body": {
@@ -225,9 +225,9 @@
             {
               "type": "text",
               "text": "· 為什麼選擇銓治？\n· 信義房屋漏水保固廠商・信義居家認證合作廠商\n· 專業團隊累積超過 20 年防水抓漏經驗\n· 營建防水丙級技術士・CRAA 工業繩索技術員 Level-1\n· 公共工程實績：兩廳院、都發局新州屋、上市集團屋頂外牆",
-              "size": "xs",
+              "size": "sm",
               "weight": "regular",
-              "color": "#9DB0C6",
+              "color": "#B4C4D8",
               "wrap": true,
               "margin": "xs"
             }
@@ -254,7 +254,7 @@
               ],
               "spacing": "md",
               "paddingAll": "12px",
-              "backgroundColor": "#1D6DB6",
+              "backgroundColor": "#1B6DB7",
               "cornerRadius": "100px",
               "action": {
                 "type": "uri",
@@ -265,14 +265,14 @@
           ],
           "spacing": "none",
           "paddingAll": "12px",
-          "backgroundColor": "#1B2A41"
+          "backgroundColor": "#1F3A68"
         }
       },
       {
         "type": "bubble",
         "styles": {
           "body": {
-            "backgroundColor": "#1B2A41"
+            "backgroundColor": "#1F3A68"
           }
         },
         "body": {
@@ -291,9 +291,9 @@
             {
               "type": "text",
               "text": "· 從檢測到完工，五步說清楚\n· 需求諮詢：提供漏水位置、發生情況及現場照片。\n· 現場勘查：了解現場狀況，評估是否需要進一步檢測。\n· 方案報價：說明施工範圍、處理方式、工程費用與預估工期。\n· 排程施工：確認報價後安排施作，主動回報施工進度。\n· 完工交付：確認施作成果，提供約定的工程文件與保固說明。",
-              "size": "xs",
+              "size": "sm",
               "weight": "regular",
-              "color": "#9DB0C6",
+              "color": "#B4C4D8",
               "wrap": true,
               "margin": "xs"
             }
@@ -320,7 +320,7 @@
               ],
               "spacing": "md",
               "paddingAll": "12px",
-              "backgroundColor": "#1D6DB6",
+              "backgroundColor": "#1B6DB7",
               "cornerRadius": "100px",
               "action": {
                 "type": "uri",
@@ -331,14 +331,14 @@
           ],
           "spacing": "none",
           "paddingAll": "12px",
-          "backgroundColor": "#1B2A41"
+          "backgroundColor": "#1F3A68"
         }
       },
       {
         "type": "bubble",
         "styles": {
           "body": {
-            "backgroundColor": "#1B2A41"
+            "backgroundColor": "#1F3A68"
           }
         },
         "body": {
@@ -357,9 +357,9 @@
             {
               "type": "text",
               "text": "· 聯絡銓治工程\n· 電話 0915-226881\n· LINE @waterproof888\n· 新北市永和區仁愛路202巷40號1樓\n· 週一～週五 8:00-17:00",
-              "size": "xs",
+              "size": "sm",
               "weight": "regular",
-              "color": "#9DB0C6",
+              "color": "#B4C4D8",
               "wrap": true,
               "margin": "xs"
             }
@@ -386,7 +386,7 @@
               ],
               "spacing": "md",
               "paddingAll": "12px",
-              "backgroundColor": "#1D6DB6",
+              "backgroundColor": "#1B6DB7",
               "cornerRadius": "100px",
               "action": {
                 "type": "uri",
@@ -397,7 +397,7 @@
           ],
           "spacing": "none",
           "paddingAll": "12px",
-          "backgroundColor": "#1B2A41"
+          "backgroundColor": "#1F3A68"
         }
       }
     ]
