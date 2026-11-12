@@ -1221,13 +1221,12 @@
                   "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "📞",
-                      "size": "lg",
-                      "weight": "regular",
-                      "color": "#1D6DB6",
-                      "wrap": false,
-                      "flex": 1
+                      "type": "image",
+                      "url": "https://sunny.cardtaiwan.com/img/flex-tel-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -1241,7 +1240,8 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none"
+                  "margin": "none",
+                  "alignItems": "center"
                 },
                 {
                   "type": "separator",
@@ -1253,13 +1253,12 @@
                   "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "💬",
-                      "size": "lg",
-                      "weight": "regular",
-                      "color": "#1D6DB6",
-                      "wrap": false,
-                      "flex": 1
+                      "type": "image",
+                      "url": "https://sunny.cardtaiwan.com/img/flex-line-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -1273,7 +1272,8 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none"
+                  "margin": "none",
+                  "alignItems": "center"
                 },
                 {
                   "type": "separator",
@@ -1285,13 +1285,12 @@
                   "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "✉️",
-                      "size": "lg",
-                      "weight": "regular",
-                      "color": "#1D6DB6",
-                      "wrap": false,
-                      "flex": 1
+                      "type": "image",
+                      "url": "https://sunny.cardtaiwan.com/img/flex-mail-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -1305,7 +1304,8 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none"
+                  "margin": "none",
+                  "alignItems": "center"
                 },
                 {
                   "type": "separator",
@@ -1317,13 +1317,12 @@
                   "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "📍",
-                      "size": "lg",
-                      "weight": "regular",
-                      "color": "#1D6DB6",
-                      "wrap": false,
-                      "flex": 1
+                      "type": "image",
+                      "url": "https://sunny.cardtaiwan.com/img/flex-map-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -1337,7 +1336,8 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none"
+                  "margin": "none",
+                  "alignItems": "center"
                 },
                 {
                   "type": "separator",
@@ -1349,13 +1349,12 @@
                   "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "🕘",
-                      "size": "lg",
-                      "weight": "regular",
-                      "color": "#1D6DB6",
-                      "wrap": false,
-                      "flex": 1
+                      "type": "image",
+                      "url": "https://sunny.cardtaiwan.com/img/flex-clock-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -1369,7 +1368,8 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none"
+                  "margin": "none",
+                  "alignItems": "center"
                 }
               ],
               "spacing": "none",
