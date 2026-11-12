@@ -2189,7 +2189,7 @@ bindRail();
         fetch(API + '?views=' + encodeURIComponent(SLUG)).then(function(r){ return r.json(); }).then(function(d){
           var el = document.getElementById('viewCount');
           if(!el || !d || !d.ok || !d.views) return;
-          el.textContent = '👀 已有 ' + d.views + ' 人看過這張名片';
+          el.textContent = '👀 已有 ' + d.views + ' 次瀏覽';
           el.style.display = '';
         }).catch(function(){});
       }catch(e){}
