@@ -99,7 +99,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -217,7 +217,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-4#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -336,7 +336,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -454,7 +454,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-4#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -573,7 +573,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -691,7 +691,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-4#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -810,7 +810,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -928,7 +928,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-4#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -1047,7 +1047,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1165,7 +1165,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-4#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -1245,7 +1245,6 @@
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
-                      "margin": "none",
                       "flex": 7
                     }
                   ],
@@ -1254,7 +1253,7 @@
                 },
                 {
                   "type": "separator",
-                  "margin": "xl",
+                  "margin": "lg",
                   "color": "#3A527A"
                 },
                 {
@@ -1276,7 +1275,6 @@
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
-                      "margin": "none",
                       "flex": 7
                     }
                   ],
@@ -1285,7 +1283,7 @@
                 },
                 {
                   "type": "separator",
-                  "margin": "xl",
+                  "margin": "lg",
                   "color": "#3A527A"
                 },
                 {
@@ -1307,7 +1305,6 @@
                       "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
-                      "margin": "none",
                       "flex": 7
                     }
                   ],
@@ -1316,7 +1313,7 @@
                 },
                 {
                   "type": "separator",
-                  "margin": "xl",
+                  "margin": "lg",
                   "color": "#3A527A"
                 },
                 {
@@ -1338,7 +1335,6 @@
                       "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
-                      "margin": "none",
                       "flex": 7
                     }
                   ],
@@ -1347,7 +1343,7 @@
                 },
                 {
                   "type": "separator",
-                  "margin": "xl",
+                  "margin": "lg",
                   "color": "#3A527A"
                 },
                 {
@@ -1369,7 +1365,6 @@
                       "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
-                      "margin": "none",
                       "flex": 7
                     }
                   ],
@@ -1377,9 +1372,9 @@
                   "alignItems": "center"
                 }
               ],
-              "spacing": "xl",
+              "spacing": "none",
               "margin": "md",
-              "paddingAll": "20px",
+              "paddingAll": "14px",
               "backgroundColor": "#1F3A68",
               "cornerRadius": "20px"
             },
@@ -1434,9 +1429,7 @@
           ],
           "spacing": "lg",
           "paddingAll": "16px",
-          "backgroundColor": "#E6ECF3",
-          "paddingTop": "24px",
-          "paddingBottom": "24px"
+          "backgroundColor": "#E6ECF3"
         },
         "footer": {
           "type": "box",
@@ -1502,7 +1495,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v2.png",
+                      "url": "https://sunny.cardtaiwan.com/img/icon-line-w-v3.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1620,7 +1613,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-4#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
