@@ -144,7 +144,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card2-v6.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card2-v7.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -217,7 +217,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card3-v6.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card3-v7.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -363,7 +363,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card5-v5.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card5-v6.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
