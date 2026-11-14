@@ -12,7 +12,7 @@
             "backgroundColor": "#1F3A68"
           },
           "footer": {
-            "backgroundColor": "#F1F5FA"
+            "backgroundColor": "#E6ECF3"
           }
         },
         "body": {
@@ -26,6 +26,8 @@
               "weight": "regular",
               "color": "#B4C4D8",
               "wrap": true,
+              "maxLines": 1,
+              "adjustMode": "shrink-to-fit",
               "margin": "none"
             }
           ],
@@ -42,58 +44,10 @@
               "text": "1 / 6",
               "size": "xs",
               "weight": "regular",
-              "color": "#5B6472",
+              "color": "#26282B",
               "wrap": false,
               "margin": "none",
               "align": "center"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/flex-tel-w1.png",
-                      "size": "20px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "立即來電 0915-226881",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F84C3",
-                    "endColor": "#15558F"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5693CA",
-                  "action": {
-                    "type": "uri",
-                    "label": "立即來電 0915-226881",
-                    "uri": "tel:+886915226881"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "none"
             },
             {
               "type": "box",
@@ -153,7 +107,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "官方LINE",
+                      "text": "官方 LINE",
                       "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -175,7 +129,7 @@
                   "borderColor": "#5693CA",
                   "action": {
                     "type": "uri",
-                    "label": "官方LINE",
+                    "label": "官方 LINE",
                     "uri": "https://line.me/R/ti/p/@waterproof888"
                   }
                 },
@@ -263,7 +217,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-12-2#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -276,7 +230,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card1-v10.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card1-v11.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -295,7 +249,7 @@
             "backgroundColor": "#1F3A68"
           },
           "footer": {
-            "backgroundColor": "#F1F5FA"
+            "backgroundColor": "#E6ECF3"
           }
         },
         "body": {
@@ -309,6 +263,8 @@
               "weight": "regular",
               "color": "#B4C4D8",
               "wrap": true,
+              "maxLines": 1,
+              "adjustMode": "shrink-to-fit",
               "margin": "none"
             }
           ],
@@ -325,7 +281,7 @@
               "text": "2 / 6",
               "size": "xs",
               "weight": "regular",
-              "color": "#5B6472",
+              "color": "#26282B",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -388,7 +344,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "官方LINE",
+                      "text": "官方 LINE",
                       "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -410,7 +366,7 @@
                   "borderColor": "#5693CA",
                   "action": {
                     "type": "uri",
-                    "label": "官方LINE",
+                    "label": "官方 LINE",
                     "uri": "https://line.me/R/ti/p/@waterproof888"
                   }
                 },
@@ -498,7 +454,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-12-2#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -511,7 +467,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card2-v5.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card2-v6.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -530,7 +486,7 @@
             "backgroundColor": "#1F3A68"
           },
           "footer": {
-            "backgroundColor": "#F1F5FA"
+            "backgroundColor": "#E6ECF3"
           }
         },
         "body": {
@@ -544,6 +500,8 @@
               "weight": "regular",
               "color": "#B4C4D8",
               "wrap": true,
+              "maxLines": 1,
+              "adjustMode": "shrink-to-fit",
               "margin": "none"
             }
           ],
@@ -560,7 +518,7 @@
               "text": "3 / 6",
               "size": "xs",
               "weight": "regular",
-              "color": "#5B6472",
+              "color": "#26282B",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -623,7 +581,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "官方LINE",
+                      "text": "官方 LINE",
                       "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -645,7 +603,7 @@
                   "borderColor": "#5693CA",
                   "action": {
                     "type": "uri",
-                    "label": "官方LINE",
+                    "label": "官方 LINE",
                     "uri": "https://line.me/R/ti/p/@waterproof888"
                   }
                 },
@@ -733,7 +691,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-12-2#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -746,7 +704,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card3-v5.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card3-v6.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -765,7 +723,7 @@
             "backgroundColor": "#1F3A68"
           },
           "footer": {
-            "backgroundColor": "#F1F5FA"
+            "backgroundColor": "#E6ECF3"
           }
         },
         "body": {
@@ -779,6 +737,8 @@
               "weight": "regular",
               "color": "#B4C4D8",
               "wrap": true,
+              "maxLines": 1,
+              "adjustMode": "shrink-to-fit",
               "margin": "none"
             }
           ],
@@ -795,7 +755,7 @@
               "text": "4 / 6",
               "size": "xs",
               "weight": "regular",
-              "color": "#5B6472",
+              "color": "#26282B",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -858,7 +818,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "官方LINE",
+                      "text": "官方 LINE",
                       "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -880,7 +840,7 @@
                   "borderColor": "#5693CA",
                   "action": {
                     "type": "uri",
-                    "label": "官方LINE",
+                    "label": "官方 LINE",
                     "uri": "https://line.me/R/ti/p/@waterproof888"
                   }
                 },
@@ -968,7 +928,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-12-2#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -981,7 +941,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card4-v6.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card4-v7.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -1000,7 +960,7 @@
             "backgroundColor": "#1F3A68"
           },
           "footer": {
-            "backgroundColor": "#F1F5FA"
+            "backgroundColor": "#E6ECF3"
           }
         },
         "body": {
@@ -1014,6 +974,8 @@
               "weight": "regular",
               "color": "#B4C4D8",
               "wrap": true,
+              "maxLines": 1,
+              "adjustMode": "shrink-to-fit",
               "margin": "none"
             }
           ],
@@ -1030,7 +992,7 @@
               "text": "5 / 6",
               "size": "xs",
               "weight": "regular",
-              "color": "#5B6472",
+              "color": "#26282B",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -1093,7 +1055,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "官方LINE",
+                      "text": "官方 LINE",
                       "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1115,7 +1077,7 @@
                   "borderColor": "#5693CA",
                   "action": {
                     "type": "uri",
-                    "label": "官方LINE",
+                    "label": "官方 LINE",
                     "uri": "https://line.me/R/ti/p/@waterproof888"
                   }
                 },
@@ -1203,7 +1165,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-12-2#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
@@ -1216,7 +1178,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card5-v4.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card5-v5.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -1232,7 +1194,7 @@
         "size": "mega",
         "styles": {
           "body": {
-            "backgroundColor": "#F1F5FA"
+            "backgroundColor": "#E6ECF3"
           },
           "footer": {
             "backgroundColor": "#FFFFFF"
@@ -1288,13 +1250,12 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none",
                   "alignItems": "center"
                 },
                 {
                   "type": "separator",
-                  "margin": "lg",
-                  "color": "#3A465C"
+                  "margin": "xl",
+                  "color": "#3A527A"
                 },
                 {
                   "type": "box",
@@ -1320,13 +1281,12 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none",
                   "alignItems": "center"
                 },
                 {
                   "type": "separator",
-                  "margin": "lg",
-                  "color": "#3A465C"
+                  "margin": "xl",
+                  "color": "#3A527A"
                 },
                 {
                   "type": "box",
@@ -1352,13 +1312,12 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none",
                   "alignItems": "center"
                 },
                 {
                   "type": "separator",
-                  "margin": "lg",
-                  "color": "#3A465C"
+                  "margin": "xl",
+                  "color": "#3A527A"
                 },
                 {
                   "type": "box",
@@ -1374,7 +1333,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "新北市永和區仁愛路202巷40號1樓（對面是永和保福宮側面）",
+                      "text": "新北市永和區仁愛路 202 巷 40 號 1 樓（對面是永和保福宮側面）",
                       "size": "md",
                       "weight": "regular",
                       "color": "#FFFFFF",
@@ -1384,13 +1343,12 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none",
                   "alignItems": "center"
                 },
                 {
                   "type": "separator",
-                  "margin": "lg",
-                  "color": "#3A465C"
+                  "margin": "xl",
+                  "color": "#3A527A"
                 },
                 {
                   "type": "box",
@@ -1416,13 +1374,12 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "none",
                   "alignItems": "center"
                 }
               ],
-              "spacing": "none",
+              "spacing": "xl",
               "margin": "md",
-              "paddingAll": "14px",
+              "paddingAll": "20px",
               "backgroundColor": "#1F3A68",
               "cornerRadius": "20px"
             },
@@ -1477,7 +1434,9 @@
           ],
           "spacing": "lg",
           "paddingAll": "16px",
-          "backgroundColor": "#F1F5FA"
+          "backgroundColor": "#E6ECF3",
+          "paddingTop": "24px",
+          "paddingBottom": "24px"
         },
         "footer": {
           "type": "box",
@@ -1488,58 +1447,10 @@
               "text": "6 / 6",
               "size": "xs",
               "weight": "regular",
-              "color": "#5B6472",
+              "color": "#26282B",
               "wrap": false,
               "margin": "none",
               "align": "center"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://sunny.cardtaiwan.com/img/flex-tel-w1.png",
-                      "size": "20px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "立即來電 0915-226881",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3F84C3",
-                    "endColor": "#15558F"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5693CA",
-                  "action": {
-                    "type": "uri",
-                    "label": "立即來電 0915-226881",
-                    "uri": "tel:+886915226881"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "none"
             },
             {
               "type": "box",
@@ -1599,7 +1510,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "官方LINE",
+                      "text": "官方 LINE",
                       "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1621,7 +1532,7 @@
                   "borderColor": "#5693CA",
                   "action": {
                     "type": "uri",
-                    "label": "官方LINE",
+                    "label": "官方 LINE",
                     "uri": "https://line.me/R/ti/p/@waterproof888"
                   }
                 },
@@ -1709,7 +1620,7 @@
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-12-2#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
+                    "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://sunny.cardtaiwan.com/flex-cards.json&v=2026-11-14-3#share=1&src=https://sunny.cardtaiwan.com/flex-cards.json"
                   }
                 }
               ],
