@@ -71,7 +71,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card1-v14.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card1-v15.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -144,7 +144,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card2-v7.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card2-v8.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -217,7 +217,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card3-v7.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card3-v8.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -290,7 +290,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card4-v8.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card4-v9.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -363,7 +363,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://sunny.cardtaiwan.com/img/card5-v6.jpg",
+          "url": "https://sunny.cardtaiwan.com/img/card5-v7.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
