@@ -1714,6 +1714,45 @@ bindRail();
   }catch(e){}
 })();
 </script>
+<!--CLICK_TRACK_BEGIN-->
+<script>
+/* 按鈕點擊追蹤（頁內加法：不改按鈕、不改流程；只在點擊時背景送一筆事件）
+   由 rebuild_page.py 產生，勿手改 */
+(function(){
+  try{
+    var API = "https://script.google.com/macros/s/AKfycbz6-2txbuJk2l3xJCWM7KoemrFPM-rpZuxvcd2A8Jk126LTu5qhBZgup7dicVsA3649/exec", SLUG = "quanzhi";
+    if(!API || !SLUG) return;
+    var DID = '';
+    try{ DID = localStorage.getItem('cardDid') || ''; }catch(e){ DID = ''; }
+    function labelOf(el){
+      var a = el && el.closest ? el.closest('a,button') : null;
+      if(!a) return '';
+      var v = a.getAttribute('data-link'); if(v) return v;
+      v = a.getAttribute('data-svc');      if(v) return v;
+      var cls = a.className || '', href = a.getAttribute('href') || '';
+      if(/(^|\s)tel(\s|$)/.test(cls) || /^tel:/i.test(href)) return 'tel';
+      if(/(^|\s)line(\s|$)/.test(cls) || /line\.me/i.test(href)) return 'line';
+      if(/(^|\s)ss-openline(\s|$)/.test(cls)) return 'share';
+      if(/^mailto:/i.test(href)) return 'web';
+      if(/google\.[a-z.]+\/maps|maps\.google/i.test(href)) return 'map';
+      if(/repair-intake|taskgo/i.test(href)) return 'svc_engineer';
+      if(/^https?:/i.test(href)) return 'web';
+      if(/^#/.test(href)) return 'page';
+      return '';
+    }
+    document.addEventListener('click', function(e){
+      try{
+        var t = labelOf(e.target); if(!t) return;
+        var body = JSON.stringify({slug:SLUG, target:t, uid:DID, ts:Date.now(),
+                                   ua:navigator.userAgent, ref:'', err:'', name:'', pic:''});
+        if(navigator.sendBeacon && navigator.sendBeacon(API, new Blob([body], {type:'text/plain;charset=utf-8'}))) return;
+        fetch(API, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'}, body:body, keepalive:true}).catch(function(){});
+      }catch(err){}
+    }, true);
+  }catch(e){}
+})();
+</script>
+<!--CLICK_TRACK_END-->
 <!--VIEW_TRACK_BEGIN-->
 <script>
 /* 名片頁瀏覽數（由 rebuild_page.py 產生，勿手改）
